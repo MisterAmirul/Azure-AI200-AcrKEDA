@@ -1,0 +1,7 @@
+$env:RESOURCE_GROUP = "ai200-lab1-KEDA-Implementation"
+$env:ACA_ENVIRONMENT = "env2-fe6f308f"
+$env:CONTAINER_APP_NAME = "agent-api"
+$env:CONTAINER_APP_FQDN = "agent-api.grayisland-2832f041.eastus.azurecontainerapps.io"
+$env:CONTAINER_APP_URL = "https://agent-api.grayisland-2832f041.eastus.azurecontainerapps.io"
+$env:CONTAINER_IMAGE = "agent-api:v1"
+$env:LOCATION = "eastus"
