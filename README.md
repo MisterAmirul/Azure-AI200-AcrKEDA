@@ -1,5 +1,5 @@
 # Azure-AI200-AcrKEDA
-Lab practice on pushing image into Azure Container Registry and implementing KEDA(Kubernetes Event-driven Autoscaling).
+Lab practice demonstrating hands-on exercise pushing image into Azure Container Registry and implementing KEDA(Kubernetes Event-driven Autoscaling).
 
 1. Provisioning a secure, serverless Azure Container Apps (ACA) Environment to host the containerized image.
 <img width="850" alt="Screenshot From 2026-10-12 21-08-01" src="https://github.com/user-attachments/assets/3d4b70f9-eb72-4710-b7f1-843da2274a67" />
@@ -36,7 +36,22 @@ Lab practice on pushing image into Azure Container Registry and implementing KED
 <img width="1917" height="930" alt="Screenshot From 2026-10-13 10-20-35" src="https://github.com/user-attachments/assets/9b170b7c-ed27-4479-80bc-d7e63d683f62" />
 <br><br>
 
-10
+10. Furthermore, we start configure the app.yaml, configuration file in vscode to change the scaling replicas number. We downgrade it to minReplicas: 1 & maxReplicas: 5
+<img width="1569" height="848" alt="Screenshot From 2026-10-16 23-24-11" src="https://github.com/user-attachments/assets/eed3b398-2700-4764-b854-034a2b84cddc" />
+<br><br>
+
+11. Verify the new scaling rules via terminal.
+<img width="1917" height="488" alt="Screenshot From 2026-10-13 10-36-12" src="https://github.com/user-attachments/assets/f0f0635d-6415-4cdc-bcee-1565dbf00032" />
+<br><br>
+
+12. Re-run the client app via "python app.py" to test the new scaling rules.
+<br><br>
+
+13. Finally, clean up cloud resources to avoid unnecessary resource usage.
+<img width="1917" height="96" alt="Screenshot From 2026-10-13 10-40-37" src="https://github.com/user-attachments/assets/ac353f65-5e1f-4008-9251-4ad07c01e00c" />
+<br><br>
+
+
 
  
 
